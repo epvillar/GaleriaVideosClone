@@ -1,0 +1,134 @@
+@media screen and (max-width: 1000px) {
+
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 2rem;;
+    }
+           
+section {
+    width: 96%;
+    margin: 0 auto;
+    padding: .4rem;
+    background: brown;
+    border-radius: .4rem;
+}
+    
+.padre, .lateral {
+    width: 100%;
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.lateral {
+    width: 0;
+}
+
+.iframegallery {
+    width: 100%;
+    height: 400px;
+}
+
+.iframelateral {
+    display: none;
+}
+
+.iframepie {
+    width: 100%;
+    height: 80px;
+}
+
+.controlcelular {
+    width: 100%;
+    display: block;
+}
+
+#cajavideopie {
+    width: 100%;
+    height: 75px;
+    position: relative;
+    overflow: hidden;
+}
+
+.imgvideopie {
+    width: 100%;
+    height: 100%;
+}
+
+.capatransparentepie {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    z-index: 10;
+    background: rgba(0,0,0,.1);
+    width: 100%;
+    height: 115px;
+    padding: .5em;  
+}
+
+}
+
+@media screen and (max-width: 500px) {
+    .iframepie {
+        width: 100%;
+        height: 65px;
+    }
+    
+    #cajavideopie {
+        width: 100%;
+        height: 60px;
+        position: relative;
+        overflow: hidden;
+    }
+   
+    .imgvideopie {
+        width: 100%;
+        height: 100%;
+    }
+   
+    .capatransparentepie {
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        z-index: 10;
+        background: rgba(0,0,0,.1);
+        width: 100%;
+        height: 60px;
+        padding: .5em;  
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .iframegallery {
+        width: 100%;
+        height: 200px;
+    }
+    .iframepie {
+        width: 100%;
+        height: 50px;
+    }
+        
+    #cajavideopie {
+        width: 100%;
+        height: 45px;
+        position: relative;
+        overflow: hidden;
+    }
+   
+    .imgvideopie {
+        width: 100%;
+        height: 100%;
+    }
+   
+    .capatransparentepie {
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        z-index: 10;
+        background: rgba(0,0,0,.1);
+        width: 100%;
+        height: 45px;
+        padding: .5em;  
+    }
+}
